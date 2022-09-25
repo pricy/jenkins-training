@@ -3,15 +3,15 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<groupId>com.mt</groupId>
-	<artifactId>nissan-web-app</artifactId>
+	<artifactId>malibu-web-app</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1</version>
 	
-	<name>nissan-web-app</name>
+	<name>malibu-web-app</name>
 
 	<description>Maven Web Project for Java Project</description>
 	<organization>
-		<name>Nissan App</name>
+		<name>Malibu App</name>
 		<url>http://landmarktechnologies.com/</url>
 	</organization>
 
@@ -107,7 +107,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>ford-web-app</finalName>
+		<finalName>malibu-web-app</finalName>
 		
 		<plugins>
 			<plugin>
@@ -127,7 +127,7 @@
 				<configuration>
 					<scanIntervalSeconds>10</scanIntervalSeconds>
 					<webApp>
-						<contextPath>/nissan-web-app</contextPath>
+						<contextPath>/malibu-web-app</contextPath>
 					</webApp>
 				</configuration>
 			</plugin>
@@ -140,7 +140,7 @@
 					<downloadSources>true</downloadSources>
 					<downloadJavadocs>true</downloadJavadocs>
 					<wtpversion>2.0</wtpversion>
-					<wtpContextName>nissan-web-app</wtpContextName>
+					<wtpContextName>malibu-web-app</wtpContextName>
 				</configuration>
 			</plugin>
 			
